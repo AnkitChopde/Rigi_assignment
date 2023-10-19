@@ -1,0 +1,230 @@
+*{
+    box-sizing:border-box;
+}
+#profile{
+    display:flex;
+    background-color: #275de6;
+
+}
+#profile>div:nth-child(1){
+    color:aliceblue;
+    padding:9% 7% 11% 18%
+}
+#profile>div{
+    width:50%
+}
+#profile>div:nth-child(1)>button{
+    padding:2% 13%;
+    font-size:10px;
+    border-radius:30px;
+    border:none;
+    color:#275de6;
+}
+#profile>div:nth-child(2){
+    padding:4% 18% 4% 7%;
+
+}
+#profile>div:nth-child(2)>img{
+    border-radius: 15px;
+}
+#middle{
+    padding-top:4%;
+}
+#middle>div h4{
+    text-align: center;
+    opacity:0.8;
+}
+#middle>div>p{
+    width:30%;
+    margin:auto;
+}
+#middle>div p>span:nth-child(1),#middle>div p>span:nth-child(5){
+    font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+    font-weight:bolder;
+    color:#275de6;
+    font-size:18px;
+    margin:0 5%
+}
+#middle>div p>span:nth-child(2){
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:100;
+    color:#275de6;
+    font-size:20px;
+    margin:0 5%
+}
+#middle>div p>span:nth-child(3){
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:100;
+    color:#275de6;
+    font-size:20px;
+    margin:0 5%
+}
+#middle>div p>span:nth-child(4){
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:100;
+    color:#275de6;
+    font-size:20px;
+    margin:0 5% 0 12%
+}
+#about{
+    margin-top:2%;
+}
+#about>div h4{
+    text-align: center;
+    opacity:0.8;
+}
+#about>div>p{
+    width:24%;
+    margin:auto;
+    margin-top:-1%;
+    font-weight:600;
+}
+#about>div>div{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:2%;
+
+       
+}
+#about>div>div>img{
+    border-radius:50%;
+    border:10px solid white;
+    outline: 2px solid #275de6;
+}
+#about>div>div~p{
+    width:52%;
+    text-align: center;
+    margin-top:2%;
+    font-weight:none;
+    opacity:0.6;
+    font-size:13px
+}
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.social-logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-logos a {
+    text-decoration: none;
+}
+
+.social-logos img {
+    width: 25px;
+    height: 25px;
+}
+#services{
+    margin-top:2%;
+}
+#services h4{
+    text-align: center;
+    opacity:0.8;
+}
+#services p{
+    width:24%;
+    margin:auto;
+    margin-top:-1%;
+    font-weight:600;
+}
+#services>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap:1rem
+}
+#services>div button{
+    font-size:10px;
+    border-radius:30px;
+    border:1px solid #275de6;
+    color:black;
+    background-color: white;
+    padding:10px 3rem
+}
+#community{
+    display:flex;
+    background-color:#F2F4F4;
+    padding:1%;
+
+}
+#community>div:nth-child(1){
+    color:black;
+    padding:0 7% 0 22%
+}
+#community>div{
+    width:50%;
+    padding:2%
+}
+#community>div:nth-child(1)>button{
+    padding:4% 15%;
+    font-size:10px;
+    border:none;
+    border-radius:30px;
+    color:aliceblue;
+    background-color:#275de6
+}
+#community>div:nth-child(2){
+    
+    padding:1% 18% 0 7%;
+
+}
+#profile>div:nth-child(2)>img{
+    border-radius: 15px;
+}
+.check{
+    display:flex;   
+}
+.check>p{
+    margin-top:0;
+    margin-left:10px
+}
+.course{
+    display:flex;
+    padding:0% 16%;
+    margin:auto;
+    gap:10px;
+    background-color:#F2F4F4;
+}
+.course>div{
+    padding:1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-bottom:0rem;
+}
+.course>div button{
+    padding:4% 15%;
+    font-size:0.7rem;
+    width:100%;
+    border:none;
+    border-radius:30px;
+    color:aliceblue;
+    background-color:#275de6
+}
+.consultation{
+    display:flex;
+    padding:0% 16%;
+    margin:auto;
+    gap:10px;
+    background-color:#F2F4F4;
+}
+.consultation>div{
+    padding:1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-bottom:0rem;
+}
+.consultation>div button{
+    padding:4% 15%;
+    font-size:0.7rem;
+    width:100%;
+    border:none;
+    border-radius:30px;
+    color:aliceblue;
+    background-color:#275de6
+}
